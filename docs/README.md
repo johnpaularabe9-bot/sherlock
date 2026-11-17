@@ -60,7 +60,7 @@ sherlock user1 user2 user3
 Accounts found will be stored in an individual text file with the corresponding username (e.g ```user123.txt```).
 
 ```console
-$ sherlock --help
+$ sherlock user1 user2 user3sherlock --help
 usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT] [--output OUTPUT] [--csv] [--xlsx] [--site SITE_NAME] [--proxy PROXY_URL] [--dump-response]
                 [--json JSON_FILE] [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color] [--browse] [--local] [--nsfw] [--txt] [--ignore-exclusions]
                 USERNAMES [USERNAMES ...]
